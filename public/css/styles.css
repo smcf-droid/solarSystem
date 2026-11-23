@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4e4c4c;
+    text-align: center;
+    
+}
+
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.planetImage {
+    width: 70%;
+    margin: 10px auto;
+}
+nav {
+    padding: 15px;
+    background: grey;
+    margin-bottom: 30px;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+.planetInfo {
+    margin: 30px auto;
+    padding: 20px;
+    background: lightgray;
+    border-radius: 10px;
+    line-height: 1.5;
+}

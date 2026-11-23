@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/head.ejs') %>
+<body>
+    <h1>The Solar System</h1>
+    <%- include('partials/nav.ejs') %>
+    <section class = "planetInfo">
+    <h2><%=   planetInfo.planetName  %></h2>
+    <p><%=   planetInfo.description  %></p>
+    <p>Distance from Sun: <%=   planetInfo.distanceFromSun  %></p>
+    <p>Year Length: <%=   planetInfo.yearLength  %></p>
+    <p>Radius: <%=   planetInfo.radius  %> miles</p>
+    <p>One Day is <%=   planetInfo.oneEarthDay  %></p>
+    <p>Moons: <%=   planetInfo.moons  %></p>
+    <img src="<%=   planetInfo.image  %>" class = "planetImage">
+    </section>
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>
